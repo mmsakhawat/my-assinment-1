@@ -1,0 +1,246 @@
+.about-info {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+
+.body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header {
+    /* padding-left: 20vh;
+     padding-right: 20vh; */
+    border-radius: 20vh;
+    padding: 10vh 15vh;
+}
+
+.header-content {
+    min-height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    background: linear-gradient(90deg,
+            rgba(2, 0, 36, 0.7) 0%,
+            rgba(9, 9, 121, 0.7) 35%,
+            rgba(7, 46, 53, 0.7) 100%),
+        url(resources/Banner\ Image.png);
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner-content {
+    padding: 30vh;
+}
+
+.banner-title {
+    font-size: 3.5em;
+    font-family: 'Roboto';
+
+}
+
+.banner-greeting {
+    height: 5px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FF0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+/* .banner-img-title{
+    border-radius: 20vh;
+    padding: 20vh 15vh;
+} */
+
+.banner-img-1{
+    padding: 0px 16px 16px 0px;
+}
+
+.email{
+    height: 70vh;
+}
+
+.holiday-column {
+    text-align: center;
+    height: 70vh;
+}
+
+.holiday-sale {
+    color: #070211;
+    font-size: 3.5em;
+}
+
+.holiday-title {
+    color: #070211;
+    height: 5px;
+}
+
+.footer{
+    display: flex;
+    background-color: #070211;
+
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130vh;
+    height: 400px;
+    justify-content: end;
+}
+
+.footer-column-right{
+    color: #FFFFFF;
+    width: 50vh;
+    padding: 0 80%;
+}
+
+.footer-street{
+    color: #FFFFFF;
+    height: 20px;
+}
+
+.footer-reserved{
+    color: #FFFFFF;
+}
+
+.footer-tital-ex{
+    height: 15px;
+}
+
+/* .profile {
+    padding: 10vh 50vh;
+    padding-right: 50vh;
+} */
+
+.portfolio{
+    width: 100%;
+}
+.portfolio img{
+    width: 300px;
+}
+
+.portfolio-tital {
+    color: #FF0000;
+    height: 5px;
+}
+
+.portfolio-column {
+    color: #070211;
+    height: 25px;
+}
+
+.portfolio-column-tital {
+    color: #070211;
+}
+
+.portfolio-content {
+    display: flex;
+}
+
+/* .portfolio-content-tital{
+    border: 2px solid red;
+} */
+
+.portfolio-content-tital{
+    padding: 16px 16px 16px 16px;
+    /* width: 100%; */
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 200vh;
+}
+
+.portfolio{
+    /* padding: 25vh 15vh; */
+}
+
+
+.portfolio-img-content{
+    padding: 16px 16px 16px 16px;
+}
+
+.our-title {
+    font-size: 3.5em;
+    color: #FF0000;
+    height: 50px;
+}
+
+.our-greeting {
+    color: #FF0000;
+    height: 20px;
+}
+
+.Welcome {
+    min-height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    background-image: linear-gradient(to left, rgba(23, 7, 7, 0), rgb(38, 21, 21)),
+        url(resources/Vectorrr.png);
+    background-size: cover;
+}
+
+.Welcome-colam-title {
+    border-radius: 20vh;
+    padding: 20vh 15vh;
+}
+
+.Welcome-colam {
+    color: #FFFFFF;
+    padding: 40vh 80px;
+}
+
+.Welcome-description {
+    color: #FFFFFF;
+}
+
+.Join-Now {
+    padding: 0px 10px;
+}
+
+.new-park {
+    border-radius: 10vh;
+    padding: 25vh 15vh;
+}
+
+.nav-title {
+    color: #070211;
+}
+
+.new-park-title {
+    background-image: linear-gradient(rgb(202, 178, 178), rgb(251, 251, 249));
+    min-height: 100vh;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.nav-column {
+    height: 30vh;
+}
+
+
+.text-primary {
+    color: #FF0000;
+}
+
+.unsubscribe{
+    width: 700vh;
+}
